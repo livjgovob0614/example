@@ -19,20 +19,13 @@
 분석 방법
 --------
 
- (1) 테스트 코드 만들어 적절한 디렉터리에 위치
- 
-   (제 기준) `.../spoon/examples/src/main/java/fr/inria/gforge/spoon/transformation/`
+ (1) 테스트 코드 만들어 적절한 디렉터리에 위치 :  (제 기준) `.../spoon/examples/src/main/java/fr/inria/gforge/spoon/transformation/`
 
- (2) 테스트 코드에서 설정한 타겟 디렉터리에 분석하길 원하는 파일 올려두기
+ (2) 테스트 코드에서 설정한 타겟 디렉터리에 분석하길 원하는 파일 올려두기 :  `.../spoon/examples/src/test/resources/project/src/main/java/`
 
-   `.../spoon/examples/src/test/resources/project/src/main/java/`
-
- (3) 컴파일
-   `.../spoon/examples/` 에서 `mvn compile`
+ (3) 컴파일 :  `.../spoon/examples/` 에서 `mvn compile`
 
 
- (4) test cmd
-   `.../spoon/examples/` 에서 `mvn test -Dtest=파일이름(.java 빼고)`
+ (4) test cmd : `.../spoon/examples/` 에서 `mvn test -Dtest=파일이름(.java 빼고)`
 
- (4) result :
-   `.../spoon/examples/spooned/`
+ (4) result : `.../spoon/examples/spooned/`
